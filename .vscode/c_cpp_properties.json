@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "name": "STM32CubeIDE",
+            "includePath": [
+                "${workspaceRoot}/**",
+                "/Users/inikola/Downloads/ushell-stm32-master/inc"
+            ],
+            "defines": [
+                "STM32F411xE",
+                "USE_HAL_DRIVER"
+            ],
+            "macFrameworkPath": [],
+            "compilerPath": "/usr/local/bin/arm-none-eabi-gcc",
+            "cStandard": "gnu17",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "clang-arm"
+        }
+    ],
+    "version": 4
+}

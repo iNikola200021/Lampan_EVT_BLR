@@ -1,0 +1,49 @@
+/**
+ * @file Examples
+ * @author Nikolay Kolpikov
+ * @brief 
+ * @version 0.1
+ * @date 2022-08-10
+ * 
+ * @copyright Copyright (c) 2022
+ * 
+ * Version Header Example (32B)
+ * ICTR-L1E-APP-SupV.MajV.MinV-YYWW[P/D/I]
+ * [ICTR-L1E-REC-MajV.MinV-YYWW[P/D/I]]
+ * 
+ * Magic Word (50B)
+ * ITCR-ODIN-L1E-OTA-d41d8cd98f00b204e9800998ecf8427e
+ * 
+ * Log Example
+ * - Event
+ * - Timestamp
+ * - BL or App
+ * JSON
+ * {
+ *    "event": "Error",
+ *    "time": "YYYY-MM-DD-mm:hh:ss"
+ *    "version": ""
+ *    "fw_type": "Bootloader | Recovery | Application" 
+ * }
+ * YY/MM/DD-hh:mm:ss-FWT-version-build:"EVENT"\n
+ * 22/08/11-17:51:59-BLR-1.0-2234D:"MEM_NOT_INIT"\n
+ * 
+ * LOG Header
+ * 
+ * ****************\n
+ * Lampan L1E\n
+ * ICTR-L1E-BLR-1.0-2234D
+ * First entry log\n
+ * SN: R0XXL1E123A\n
+ * IMEI: 123456789012345\n
+ * HName: Ramon\n
+ * *****************\n
+ * 
+ * 
+ * FLAGS sector mapping:
+ * 0x070000 FACTORY_RESET_FLAG
+ * 0x070001 ACTIVATION_STATUS_FLAG
+ * 0x070002 CERTS_UPDATE_FLAG
+ * 0X070003 OTA_FLAG
+ * 0x070004 RECOVERY_FLAG
+ */

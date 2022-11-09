@@ -1,0 +1,10 @@
+../gsm_v5-master/gsmCallback.c:5:6:gsm_callback_simcardReady	0	static
+../gsm_v5-master/gsmCallback.c:10:6:gsm_callback_simcardPinRequest	0	static
+../gsm_v5-master/gsmCallback.c:15:6:gsm_callback_simcardPukRequest	0	static
+../gsm_v5-master/gsmCallback.c:20:6:gsm_callback_simcardNotInserted	0	static
+../gsm_v5-master/gsmCallback.c:25:6:gsm_callback_networkRegister	0	static
+../gsm_v5-master/gsmCallback.c:30:6:gsm_callback_networkUnregister	0	static
+../gsm_v5-master/gsmCallback.c:62:6:gsm_callback_gprsConnected	0	static
+../gsm_v5-master/gsmCallback.c:67:6:gsm_callback_gprsDisconnected	0	static
+../gsm_v5-master/gsmCallback.c:72:6:gsm_callback_mqttMessage	0	static
+../gsm_v5-master/gsmCallback.c:77:6:gsm_callback_mqttDisconnect	0	static

@@ -1,0 +1,3 @@
+../gsm_v5-master/fs.c:6:6:gsm_fs_create	40	static
+../gsm_v5-master/fs.c:25:6:gsm_fs_write	48	static
+../gsm_v5-master/fs.c:52:10:gsm_fs_get_size	72	static

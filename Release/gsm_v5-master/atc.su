@@ -1,0 +1,14 @@
+../gsm_v5-master/atc.c:12:7:atc_alloc	0	static
+../gsm_v5-master/atc.c:21:6:atc_free	0	static
+../gsm_v5-master/atc.c:31:6:atc_init	24	static,ignoring_inline_asm
+../gsm_v5-master/atc.c:44:6:atc_lock	16	static
+../gsm_v5-master/atc.c:64:6:atc_unlock	0	static
+../gsm_v5-master/atc.c:69:6:atc_transmit	16	static
+../gsm_v5-master/atc.c:81:6:atc_rxCallback	8	static
+../gsm_v5-master/atc.c:104:6:atc_search	24	static
+../gsm_v5-master/atc.c:119:7:atc_searchAnswer	24	static
+../gsm_v5-master/atc.c:138:6:atc_empty	8	static
+../gsm_v5-master/atc.c:144:6:atc_available	8	static
+../gsm_v5-master/atc.c:151:6:atc_addSearch	24	static
+../gsm_v5-master/atc.c:167:8:atc_command	56	static
+../gsm_v5-master/atc.c:215:6:atc_loop	8	static
